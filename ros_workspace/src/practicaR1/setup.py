@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='laboratorio',
-    maintainer_email=''inigo.fiat@opendeusto.es'',
+    maintainer_email='inigo.fiat@opendeusto.es',
     description='TODO: Package description',
     license='Apache-2.0',
     extras_require={
