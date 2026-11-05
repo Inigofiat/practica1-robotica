@@ -24,7 +24,12 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'practica1 = practicaR1.practica1:main'
+            'practica1 = practicaR1.practica1:main',
+            'trayectorias = practicaR1.trayectorias:main_trayectorias',
+            'grabador = practicaR1.parte1:main_grabador',
+            'practica = practicaR1.parte1:main_practica',
+            'grabador2 = practicaR1.parte2:main_grabador_inteligente',
+            'practica2 = practicaR1.parte2:main_parte2',
         ],
     },
 )
